@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.background {
+    background-color: darkblue;
+    background-size: cover;
+
+}
+
+.form {
+    background-color: white;
+    margin: 3.125rem auto 0 auto;
+}
