@@ -3,13 +3,17 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: black;
-
+    margin: 0;
+    padding: 0;
 }
 
 .background {
     background-color: darkblue;
     background-image: url(https://images.pexels.com/photos/7374/startup-photos.jpg?cs=srgb&dl=working-woman-technology-computer-7374.jpg&fm=jpg);
-    background-position: center;    
+    background-position: center;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-left: 300px;
     padding-right: 300px;
 }
@@ -17,8 +21,7 @@ body {
 .form {
     background-color: grey;
     opacity: 0.9;
-    text-align: left;
-    padding: 70px;
+    padding: 10px;
 }
 
 .form-group {
@@ -31,3 +34,9 @@ body {
     font-size: 0.9rem;
 }
 
+.textblock {
+    min-height: 120px;
+    width: 50%;
+    padding: 0.625rem;
+    resize: vertical;
+}
